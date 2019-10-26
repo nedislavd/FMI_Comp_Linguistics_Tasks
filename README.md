@@ -1,1 +1,1 @@
-# FMI_CL_Mini_Chat_Bot
+# Task for the Computer Linguistics Disciple in FMI 
