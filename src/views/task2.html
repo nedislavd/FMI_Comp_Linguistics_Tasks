@@ -5,6 +5,35 @@
     <title>Task 2</title>
 </head>
 <body>
+<header>
+    <h1>Convert Fractions to Base(N) in String</h1>
+</header>
+<main>
+    <section>
+        <form action="">
+            <fieldset>
+                <legend>Enter your text for conversion here.</legend>
+                <p>Fractions will be detected in the following format:</p>
+                <ul>
+                    <li><b><i>"1.5"</i></b></li>
+                    <li><b><i>"1/2"</i></b></li>
+                </ul>
+                <section style="margin: 0 auto">
+                    <label for="numberSystemSelector" style="margin-left: 30%;">Choose number base to convert into:</label>
+                    <select name="" id="numberSystemSelector"></select>
+                    <button id="triggerConversion">Convert</button>
+                </section>
+                <section class="text-zone" style="margin: 0 auto">
 
+                    <textarea style="margin-left: 40px" required name="" id="inputText" cols="56" rows="15"></textarea>
+                    <textarea name="" readonly id="outputText" cols="56" rows="15"></textarea>
+                </section>
+                <p>Supported symbols to match are:</p>
+                <p id="supportedSymbols"></p>
+            </fieldset>
+
+        </form>
+    </section>
+</main>
 </body>
 </html>
