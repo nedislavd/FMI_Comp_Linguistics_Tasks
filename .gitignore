@@ -1,0 +1,11 @@
+# dependencies
+node_modules
+
+# production - removed build to host on github pages
+build
+
+# misc
+.DS_Store
+
+npm-debug.log
+.vscode
