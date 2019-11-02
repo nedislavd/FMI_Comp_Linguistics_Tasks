@@ -31,19 +31,19 @@ module.exports = {
       filename: './views/task1.html'
     }),
     new HtmlWebpackPlugin({
-      template: Path.resolve(__dirname, '../src/views/task1.html'),
+      template: Path.resolve(__dirname, '../src/views/task2.html'),
       filename: './views/task2.html'
     }),
     new HtmlWebpackPlugin({
-      template: Path.resolve(__dirname, '../src/views/task1.html'),
+      template: Path.resolve(__dirname, '../src/views/task3.html'),
       filename: './views/task3.html'
     }),
     new HtmlWebpackPlugin({
-      template: Path.resolve(__dirname, '../src/views/task1.html'),
+      template: Path.resolve(__dirname, '../src/views/task4.html'),
       filename: './views/task4.html'
     }),
     new HtmlWebpackPlugin({
-      template: Path.resolve(__dirname, '../src/views/task1.html'),
+      template: Path.resolve(__dirname, '../src/views/task5.html'),
       filename: './views/task5.html'
     }),
   ],
